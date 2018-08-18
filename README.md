@@ -1,7 +1,7 @@
-# Discord RPC Maker by Eren
+# Discord RPC Maker
 
 # Destek & Yardım sunucusu:
-https://discord.gg/U5v2csS
+https://discord.gg/3AMZuA8
 
 # Gerekli Programlar
 - Node
@@ -25,15 +25,17 @@ https://notepad-plus-plus.org/download/
 
 5- Bir "Application" yani "App" oluşturun. (Discordda "<app adı> Oynuyor" şeklinde gözükür.)
 
-6- Aşağıdan "Enable Rich Presence" tuşuna basın.
+6- Rich Presence kısmına gelin ve Art Assets kısmına girin.
 
-7- En altta bulunan yerden large ve small fotoğraf yükleyin. (yüklerken onlara birer isim koyun ve "Upload Asset"e basın)
+7- Rich Presence Assets kısmında "Add Image" butonuna basıp logonuzu yükleyin.
 
-8- Üstte bulunan yerden ClientID'yi alın ve ayarlar.json dosyasında bulunan "appid" kısmının önüne koyun.
+8- Tekrar Rich Presence kısmına tıklayıp Small Image Key ve Large Image Key kısmından yüklediğiniz logoyu seçin.
 
-9- Yazıları düzenlemek için "ayarlar.json" dosyasını açın.
+9- General Information kısmından ClientID'yi alın ve config.json dosyasında bulunan "appid" kısmının önüne koyun.
 
-10 - Son olarak onları değiştirip kaydettikten sonra "baslat.bat" dosyasına çift tıklayın ve çalıştırın.
+10- Yazıları düzenlemek için "config.json" dosyasını açın.
+
+10 - Son olarak onları değiştirip kaydettikten sonra "run.bat" dosyasına çift tıklayın ve çalıştırın.
 
 # config.json'da Bulunan Yazıların Anlamları
 - "AppID": oluşturduğumuz application'un ID'si.
